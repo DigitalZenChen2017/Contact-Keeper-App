@@ -18,7 +18,7 @@ router.post('/', (req, res) => {
 // @route PUT api/contacts/:id
 // @desc Update Contact
 // @access Private
-router.post('/:id', (req, res) => {
+router.put('/:id', (req, res) => {
   res.send('Update Contact');
 });
 
