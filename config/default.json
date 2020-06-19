@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://borisAdmin:dveP70FF52OAQiBg@bc-cluster-olpyi.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://borisAdmin:dveP70FF52OAQiBg@bc-cluster-olpyi.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
 }
