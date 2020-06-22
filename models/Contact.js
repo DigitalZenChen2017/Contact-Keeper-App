@@ -16,11 +16,13 @@ const ContactSchema = mongoose.Schema({
   },
   phone: {
     type: String,
-    required: true,
   },
-  password: {
+  phone: {
     type: String,
-    required: true,
+  },
+  type: {
+    type: String,
+    default: 'Personal',
   },
   date: {
     type: Date,
@@ -28,4 +30,4 @@ const ContactSchema = mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model('user', UserSchema);
+module.exports = mongoose.model('contact', ContactSchema);
